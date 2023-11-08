@@ -15,16 +15,20 @@ A program for gathering positional data and providing analytics from League of L
 
   
   1. create venv
+     
     conda create -n lolpago python=3.9.11
     
-  2. start venv
+  3. start venv
+     
     conda activate lolpago
 
-  3. install tensorflow 
+  4. install tensorflow
+     
     pip install tensorflow-gpu=2.10.0
 
-  4. software requirements
-    cuDNN = v8.1.0 for CUDA 11.2  :  https://developer.nvidia.com/rdp/cudnn-download   => lib, include, bin 폴더만 따로 CUDA(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2) 에 저장.
+  5. software requirements
+     
+    cuDNN = v8.1.0 for CUDA 11.2  :  https://developer.nvidia.com/rdp/cudnn-download   => save only {lib, include, bin} folders into CUDA(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2)
 
     CUDA = 11.2  :  https://developer.nvidia.com/cuda-11.2.0-download-archive
 
@@ -38,7 +42,8 @@ A program for gathering positional data and providing analytics from League of L
     PersistedSettings.json 에서 편집해도 됨.
 
 ## <command>
-  setup.py develop
+
+    setup.py develop
 
 
 For more information, see the wiki
