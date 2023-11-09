@@ -1,9 +1,9 @@
-# 리그오브레전드 리플레이 추출/추적기
+# 리그오브레전드 리플레이 추출기
 
-CV를 이용한 '리그 오브 레전드' 리플레이 추출기
+CV 기술을 이용한 '리그 오브 레전드' 리플레이 추출기이다.
 
-리그 오브 레전드 리플레이 영상에서 데이터를 수집 / 분석하는 프로그램이다.
-YouTube나 로컬에 저장된 비디오에서 시간에 따른 플레이어 위치 정보를 자동으로 수집할 수 있다.
+리그 오브 레전드 리플레이 영상으로부터 데이터를 수집 / 분석하는 프로그램이다.
+YouTube나, 로컬에 저장된 비디오에서 '플레이어 위치 정보를 시간에 따라' 자동으로 수집할 수 있다.
 
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
@@ -74,19 +74,18 @@ Download directly from github and unzip or clone from the command line
 
 
 
-#### 5. 아래와 같이 만들 수 있다( 미니맵 Frame dataset을 이 )
+#### 5. 아래 그림과 같이 생성할 수 있다. ( 미니맵 Frame dataset을 이용 )
 
 - 챔피언 추적 (Roboflow)
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/0c678dbf-82e7-4219-9f77-3faf3a58b358)
 
 
 추적 모델을 사용할 수 있다. ( Performance | mAP : 92.2% | precision : 91.3% | recall : 90.2% )
-- Infer on Local and Hosted Images
-    To install dependencies,
+- Dependency(의존성)을 설치하려면,
 
         pip install roboflow.
 
-    Then, add the following the following code snippet to a Python script:
+    파이썬 스크립트에 다음 코드를 실행한다 : 
   
         from roboflow import Roboflow
         rf = Roboflow(api_key="API_KEY")
