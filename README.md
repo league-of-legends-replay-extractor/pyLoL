@@ -85,7 +85,7 @@ from tqdm import tqdm
 import time
 
 for matchId in tqdm(matchIds_challenger[:1000], 
-                    desc = 'Gathering Replay_files(.rofl) from LoL Client... ', Print statement for progress at the front
+                    desc = 'Gathering Replay_files(.rofl) from LoL Client... ', ## Print statement for progress at the front
                     ncols = 130, ## Adjust width for progress display
                     ascii = ' =', 
                     leave=True):
