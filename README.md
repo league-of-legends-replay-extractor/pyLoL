@@ -41,36 +41,41 @@ python setup.py develop
 ```
 
 4. Directory settings
-   In replay_scraper.ipynb, ㅡodify the path to suit your local environment
+   In replay_scraper.ipynb, modify the path to suit your local environment
+   game_dir: League of Legends game directory.
+   replay_dir: League of Legends *.rofl replay directory.
+   dataset_dir: JSON replay files output directory.
+   replay_speed: League of Legends client replay speed multiplier.
+   scraper_dir: Directory of the scraper program.
    
-
-
-#### 1. Download or clone the repo
-
-Download directly from github and unzip or clone from the command line
-
-#### 2. Install Requirements
-
-    pip install -r requirements.txt
-
-
-# Quickstart
-
-Get started with W&B in four steps:
-
-1. First, sign up for a [free W&B account](https://wandb.ai/login?utm_source=github&utm_medium=code&utm_campaign=wandb&utm_content=quickstart).
-
-2. Second, install the W&B SDK with [pip](https://pip.pypa.io/en/stable/). Navigate to your terminal and type the following command:
-
-```bash
-pip install wandb
-```
-
-3. Third, log into W&B:
-
 ```python
-wandb.login()
+rd.set_replays_dir(rd,folder_dir = r'C:\Users\username\Documents\League of Legends\Replays')  # replay download directory
+
+rs.__init__(rs, game_dir = r'C:\Riot Games\League of Legends\Game',                          
+            replay_dir = r'C:\Users\username\Documents\League of Legends\Replays',               
+            dataset_dir = r'C:\Users\username\Documents\League of Legends\Dataset',              
+            scraper_dir = r'C:\Users\username\Desktop\pyLoL\pyLoL\autoLeague\replays',
+            replay_speed=40,
+            region="KR")
+ie.__init__(ie,dataset_dir=r'C:\Users\username\Desktop\pyLoL')
 ```
+
+5. API KEY
+   You can get API KEY from riot developer portal : https://developer.riotgames.com
+   
+```python
+dg.__init__(dg, api_key='RIOT_API_KEY' , count=20)
+```
+
+6. Gathering MatchIds filtered by {queue, tier, division, max_ids, patch_start_datetime}
+
+   if you wanna download matchIds from 5000 MASTER I in SOLORANK users in specific patch,
+   
+```python
+dg.get_tier_matchIds(dg, queue='RANKED_SOLO_5x5', tier='MASTER', division='I' , max_ids=5000, patch_start_datetime='2023.10.26')
+```
+
+7. 
 
 #### 4. Get Minimap Capture Images
 
