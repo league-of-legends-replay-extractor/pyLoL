@@ -20,7 +20,7 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 # Quickstart
 
-[![Video Label](https://github.com/league-of-legends-replay-extractor/pyLoL/assets/53938323/65458a4e-71e2-4545-b484-598ee66f2ff0)](https://youtu.be/0z9_jyfS1TQ)
+[![Video Label](http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg)](https://youtu.be/0z9_jyfS1TQ)
 
 Get started with pyLoL in nine steps:
 
