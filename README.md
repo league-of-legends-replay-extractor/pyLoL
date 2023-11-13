@@ -1,4 +1,4 @@
-# league-of-legends-replay-extractor
+# League-of-Legends-Replay-Extractor
 
 League of Legends Replay Extractor Using CV
 
