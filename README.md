@@ -27,7 +27,23 @@ Get started with W&B in four steps:
 ```bash
 git clone https://github.com/league-of-legends-replay-extractor
 ```
+
+2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Make python project to Package
    
+```bash
+python setup.py develop
+```
+
+4. Directory settings
+   In replay_scraper.ipynb, ㅡodify the path to suit your local environment
+   
+
 
 #### 1. Download or clone the repo
 
