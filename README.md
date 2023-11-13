@@ -6,8 +6,28 @@ A program for gathering positional data and providing analytics from League of L
 
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
+# What is pyLoL?
 
-For more information, see the wiki
+pyLoL is 'League of Legends' replays data extracting program.
+
+# What can pyLoL do?
+
+[1] can save replay files(.rofl) automatically.
+
+[2] can get the location of players every one second.
+
+[3] can get the location of wards.
+
+# Quickstart
+
+Get started with W&B in four steps:
+
+1. First, clone this repository.
+
+```bash
+git clone https://github.com/league-of-legends-replay-extractor
+```
+   
 
 #### 1. Download or clone the repo
 
@@ -17,22 +37,24 @@ Download directly from github and unzip or clone from the command line
 
     pip install -r requirements.txt
 
-#### 3. How to Use
 
-  - Collecting Player MatchIDs  :
-    
-        python3 generator.py
-    ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/9ea856bb-c76c-4a85-b720-578ea1ef2748)
+# Quickstart
 
-  - Replay File(.rofl) Download :
+Get started with W&B in four steps:
 
-        python3 downloader.py
-    ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/25af0427-a308-431f-90af-730881d00a3c)
+1. First, sign up for a [free W&B account](https://wandb.ai/login?utm_source=github&utm_medium=code&utm_campaign=wandb&utm_content=quickstart).
 
-  - Replay Running & Recording  :
+2. Second, install the W&B SDK with [pip](https://pip.pypa.io/en/stable/). Navigate to your terminal and type the following command:
 
-        python3 scraper.py
-    ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/1afbd285-ab26-4095-81a1-5513c78cac2b)
+```bash
+pip install wandb
+```
+
+3. Third, log into W&B:
+
+```python
+wandb.login()
+```
 
 #### 4. Get Minimap Capture Images
 
