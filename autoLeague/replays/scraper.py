@@ -168,24 +168,7 @@ class ReplayScraper(object):
                 frame = cv2.cvtColor(frame,  cv2.COLOR_BGR2RGB)
                 # 녹화된 프레임을 비디오 파일에 씁니다.
                 out.write(frame)
-
-                # requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
-                # timestamp = requests.get('https://127.0.0.1:2999/replay/playback', verify=False).json()['time']    
-
-                # if   timestamp <= end + 22:
-                #     print(f"리플레이 정상 정지, 요청 종료 시각 : {end}s , 실제 종료 시각{timestamp}s")
-                #     replay_running  = False
-                # else:
-                            #fore = pyautogui.getActiveWindow()
-                            # 가운데 팀 정보창 스크린샷
-                            # pyautogui.screenshot(rf'C:\Users\김성윤\Desktop\pyLoL\{gameId}\{team}\{capture_count}_team.png', region=(fore.size[0]-2650, fore.size[1]-450, 1500, 450))
-                            # 가운데 팀 정보창 중 KDA / 제압골드 / CS 스크린샷
-                            # pyautogui.screenshot(rf'C:\Users\김성윤\Desktop\pyLoL\{gameId}\{team}\{capture_count}_team_kda.png', region=(fore.size[0]-2650 + 50*8, fore.size[1]-450, 1500 -8*50 -9*50, 450))
-                        # 미니맵 스크린샷(자주 사용하는 것)
-                        # pyautogui.screenshot(rf'C:\Users\김성윤\Desktop\pyLoL\{gameId}\{team}\{capture_count}_minimap.png', region=(fore.size[0]-870, fore.size[1]-870, 840, 840))
-                        # capture_count = capture_count + 1
-                        # time.sleep(0.1)
-            
+         
             except:
                 pass
 

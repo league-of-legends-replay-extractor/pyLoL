@@ -1,12 +1,7 @@
 """Module setuptools script."""
 from setuptools import setup
 
-description = """TLoL-py - League of Legends Deep Learning Library
-TLoL-py is the Python component of the TLoL League of
-Legends deep learning library. It provides a set of utility methods and classes
-to deal with League of Legends game playing, deep learning datasets and provides
-a library to build a deep learning agent which can play League of Legends.
-Read the README at https://github.com/MiscellaneousStuff/tlol-py for more information.
+description = """
 """
 
 setup(
