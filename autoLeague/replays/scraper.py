@@ -151,7 +151,7 @@ class ReplayScraper(object):
         record_area = (0, 0, 3866, 2090)
         # 녹화할 비디오의 이름과 코덱을 설정합니다.
         fourcc = cv2.VideoWriter_fourcc(*"XVID")
-        out = cv2.VideoWriter(f"E:/ReplayVideos/{gameId}_{team}.avi", fourcc, 120.0, (record_area[2], record_area[3]))
+        out = cv2.VideoWriter(f"./ReplayVideos/{gameId}_{team}.avi", fourcc, 120.0, (record_area[2], record_area[3]))
 
         
         # 녹화 시작 시간을 기록합니다.
