@@ -97,7 +97,7 @@ class DataPreprocessor(object):
 
         # 각 경기 폴더들 => 예시 : C:\Users\김성윤\Desktop\pyLoL\CHALLENGER\KR-6415928037
 
-        f = open(rf'C:\dataset\{tier}_dataset.csv','a', newline='')
+        f = open(rf'./dataset/{tier}_dataset.csv','a', newline='')
         features = ['matchID']
         for i in range(379):
             features.extend([f'블루바론{i}',f'블루용{i}',f'레드바론{i}',f'레드용{i}',f'바론{i}',f'용{i}'])
