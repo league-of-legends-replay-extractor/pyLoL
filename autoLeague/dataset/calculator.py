@@ -1,7 +1,3 @@
-
-
-
-
 import os
 import cv2
 import numpy as np
@@ -45,7 +41,7 @@ class AreaCalculator(object):
 
     def get_is_win(matchid, team_color):
         
-        API_KEY = 'RGAPI-1a1d24de-0002-4894-85cc-6deaf6ec560e'
+        API_KEY = 'API_KEY'
         matchID = matchid.replace('-','_')
         if team_color == 'Blue':
             return 1 if requests.get(f'https://asia.api.riotgames.com/lol/match/v5/matches/{matchID}?api_key={API_KEY}').json()['info']['teams'][0]['win'] == True else 0

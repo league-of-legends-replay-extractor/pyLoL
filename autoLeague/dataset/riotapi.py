@@ -1,4 +1,3 @@
-#APIKEY = 'RGAPI-1a1d24de-0002-4894-85cc-6deaf6ec560e'
 import requests
 import time
 from tqdm import tqdm
