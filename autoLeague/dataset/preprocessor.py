@@ -123,7 +123,7 @@ class DataPreprocessor(object):
                 data = [f'{m_folder}_{t_folder}']
 
                 #csv file write
-                f = open(rf'C:\dataset\{tier}_dataset.csv','a', newline='')
+                f = open(rf'./dataset/{tier}_dataset.csv','a', newline='')
                 wr = csv.writer(f)
 
                 files = os.listdir(f'{project_folder_dir}\{m_folder}\{t_folder}\\black')
