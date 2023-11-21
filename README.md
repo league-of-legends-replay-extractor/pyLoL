@@ -11,15 +11,15 @@
    <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
 </p>
 
-League of Legends Replay Extractor Using CV
+🚩League of Legends Replay Extractor Using CV🚩
 
 A program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
 
-# What is pyLoL?
+# ✅What is pyLoL?
 
 pyLoL is 'League of Legends' replays data extracting program.
 
-# What can pyLoL do?
+# ✅What can pyLoL do?
 
 [1] can save replay files(.rofl) automatically.
 
@@ -27,7 +27,7 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 [3] can get the location of wards.
 
-# Quickstart 🚀
+# 🚀Quickstart
 
 [![Video Label](http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg)](https://youtu.be/0z9_jyfS1TQ)
 
@@ -139,7 +139,7 @@ oc.get_ocr(oc)
 ```
 ![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_kda.png)
 
-# Champion Tracking Model( Using Minimap Frame dataset )
+# 🎯Champion Tracking Model( Using Minimap Frame dataset )
 
 - Champion Tracking (Roboflow)
 - <img src="https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/0c678dbf-82e7-4219-9f77-3faf3a58b358" width="450" height="450">
@@ -166,11 +166,11 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         # infer on an image hosted elsewhere
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
 
-# Give this Project a Star 🌠
+# 🌠Give this Project a Star
 
 This project is an open source project. If you like what you see, please give it a star on github.
 
-# Citing this Paper
+# 📝Citing this Paper
 
 [Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2023w/abs/0632-RRHIQ.pdf)
 
