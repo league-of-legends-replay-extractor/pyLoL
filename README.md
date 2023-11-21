@@ -35,6 +35,8 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 Get started with pyLoL in nine steps:
 
+* [Examples](https://colab.research.google.com/drive/1HAQjHIVXE__Pb1KiBHG1I2jIQbFfWJ3q?usp=sharing).![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+
 1. First, clone this repository.
 
 ```bash
