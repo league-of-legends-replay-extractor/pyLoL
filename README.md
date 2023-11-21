@@ -2,7 +2,6 @@
 ![Contributors](https://img.shields.io/github/contributors/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)
 [![Stargazers](https://img.shields.io/github/stars/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)](https://github.com/league-of-legends-replay-extractor/pyLoL/stargazers)
 ![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/Uses-OpenCV-green.svg?style=for-the-badge)
 ![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge)
 
 # 🚩League-of-Legends-Replay-Extractor
