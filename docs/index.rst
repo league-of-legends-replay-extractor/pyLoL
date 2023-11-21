@@ -11,7 +11,9 @@ how to `Installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is not reversing tool. For Extracting Dataset, we just use CV techs.
+   We use .ipynb files for running replay extracting.
+   So, before development, You must install jupyter notebook.
 
 Contents
 --------
