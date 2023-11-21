@@ -191,8 +191,6 @@ This project is an open source project. If you like what you see, please give it
 |kimsy1106|tim000519|cye_dev|
 |------|---|---|
 |developing replay extractor|manage "read the docs"|manage "read the docs"|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
 
 
 
