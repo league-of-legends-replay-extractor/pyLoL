@@ -1,11 +1,11 @@
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
+![Contributors](https://img.shields.io/github/contributors/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)
+[![Stargazers](https://img.shields.io/github/stars/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)](https://github.com/league-of-legends-replay-extractor/pyLoL/stargazers)
+![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/Uses-OpenCV-green.svg?style=for-the-badge)
+![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge)
+
 # 🚩League-of-Legends-Replay-Extractor
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
-![Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange.svg)
-![OpenCV](https://img.shields.io/badge/Uses-OpenCV-green.svg)
-![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg)
-
 
 <p align="center">
    <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
