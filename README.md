@@ -85,7 +85,7 @@ dg.__init__(dg, api_key='RIOT_API_KEY' , count=20)
 ```python
 dg.get_tier_matchIds(dg, queue='RANKED_SOLO_5x5', tier='MASTER', division='I' , max_ids=5000, patch_start_datetime='2023.10.26')
 ```
-![image](https://github.com/league-of-legends-replay-extractor/pyLoL/assets/53938323/87073c7a-442f-4f4b-b68c-0563df3e238e)
+![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_kda.png)
 
 7. Save replay files for the match IDs obtained above
 
@@ -105,7 +105,7 @@ for matchId in tqdm(matchIds_challenger[:1000],
     except:
         pass
 ```
-![image](https://github.com/league-of-legends-replay-extractor/pyLoL/assets/53938323/968682dc-566d-42ae-8874-db443be29965)
+![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/gathering_replay_files.png)
 
 8. Run replay => Save minimap capture video
    Option : All) no fog of war
@@ -128,7 +128,7 @@ for replay in tqdm(replays,
                   paused=False, 
                   team="All")
 ```
-![image](https://github.com/league-of-legends-replay-extractor/pyLoL/assets/53938323/d269ed2f-8296-41e3-a8a4-fa819c97e10c)
+![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_replay_minimaps.png)
 
 9. Extract Realtime KDA, CS using OCR
     
@@ -137,12 +137,12 @@ from autoLeague.preprocess.ocr_center_window import OcrCenter as oc
 oc.__init__(oc, project_folder_dir = r'C:\Users\username\Desktop\pyLoL')
 oc.get_ocr(oc)
 ```
-
+![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_kda.png)
 
 # Champion Tracking Model( Using Minimap Frame dataset )
 
 - Champion Tracking (Roboflow)
-![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/0c678dbf-82e7-4219-9f77-3faf3a58b358)
+- <img src="https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/0c678dbf-82e7-4219-9f77-3faf3a58b358" width="450" height="450">
 
 Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 91.3% | recall : 90.2% )
 - Infer on Local and Hosted Images
