@@ -171,9 +171,9 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
 
 
 
-|제목|내용|설명|
+|kimsy1106|tim000519|cye_dev|
 |------|---|---|
-|테스트1|테스트2|테스트3|
+|developing replay extractor|manage read the docs|manage read the docs|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 
