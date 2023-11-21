@@ -161,3 +161,11 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         # infer on an image hosted elsewhere
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
 
+
+# T1 vs Weibo Gaming
+
+- T1 Oner Nocturne Tracks
+
+
+
+
