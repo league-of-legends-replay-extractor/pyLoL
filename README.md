@@ -15,8 +15,6 @@ League of Legends Replay Extractor Using CV
 
 A program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
 
-![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
-
 # What is pyLoL?
 
 pyLoL is 'League of Legends' replays data extracting program.
@@ -169,13 +167,11 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
 
 
-# T1 vs Weibo Gaming
+# Citation 
 
-- T1 Oner Nocturne Tracks
+[Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2023w/abs/0632-RRHIQ.pdf)
 
-
-
-
+![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
 
 |kimsy1106|tim000519|cye_dev|
