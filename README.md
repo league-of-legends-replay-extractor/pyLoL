@@ -27,7 +27,7 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 [3] can get the location of wards.
 
-# Quickstart
+# Quickstart 🚀
 
 [![Video Label](http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg)](https://youtu.be/0z9_jyfS1TQ)
 
@@ -166,7 +166,7 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         # infer on an image hosted elsewhere
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
 
-# Give this Project a Star
+# Give this Project a Star 🌠
 
 This project is an open source project. If you like what you see, please give it a star on github.
 
