@@ -1,4 +1,4 @@
-# League-of-Legends-Replay-Extractor
+# 🚩League-of-Legends-Replay-Extractor
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
@@ -11,7 +11,7 @@
    <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
 </p>
 
-🚩League of Legends Replay Extractor Using CV🚩
+## **League of Legends Replay Extractor Using CV**
 
 A program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
 
