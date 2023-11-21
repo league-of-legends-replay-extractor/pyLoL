@@ -166,10 +166,21 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         # infer on an image hosted elsewhere
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
 
+# Give this Project a Star
 
-# Citation 
+This project is an open source project. If you like what you see, please give it a star on github.
+
+# Citing this Paper
 
 [Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2023w/abs/0632-RRHIQ.pdf)
+
+      @article{김성윤2023시계열,
+        title={시계열 위치 데이터를 활용한 MOBA 게임 승패 예측: 리그오브레전드 사례 분석},
+        author={김성윤 and 이태홍 and 양희철},
+        journal={한국통신학회 학술대회논문집},
+        pages={1205--1206},
+        year={2023}
+      }
 
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
