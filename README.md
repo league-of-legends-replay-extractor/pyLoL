@@ -1,5 +1,7 @@
 # League-of-Legends-Replay-Extractor
 
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 <p align="center">
    <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
 </p>
