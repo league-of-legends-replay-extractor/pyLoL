@@ -1,15 +1,27 @@
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
-![Contributors](https://img.shields.io/github/contributors/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)
-[![Stargazers](https://img.shields.io/github/stars/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)](https://github.com/league-of-legends-replay-extractor/pyLoL/stargazers)
-[![Documentation Status](https://readthedocs.org/projects/pylol/badge/?style=for-the-badge)](https://pylol.readthedocs.io/en/latest/?style=for-the-badge)
-![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)
-![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge)
+# <h1 align="center"><img src="./assets/logo.jpg" style="width:288px;height:240px;"/><br>LoL Replay Extractor</h1>
 
-# 🚩League-of-Legends-Replay-Extractor
+<p align="center">
+!! LoL Replay Extractor is still in development, any bugs can appear !!
+</p>
 
-## **League of Legends Replay Extractor Using CV**
+<p align="center">
+    <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
+    <a href=""><img src="https://img.shields.io/github/contributors/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge"></a>
+    <a href="https://github.com/league-of-legends-replay-extractor/pyLoL/stargazers"><img src="https://img.shields.io/github/stars/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge"></a>
+    <a href="https://pylol.readthedocs.io/en/latest/?style=for-the-badge"><img src="https://readthedocs.org/projects/pylol/badge/?style=for-the-badge"></a>
+    <a href="./"><img src="https://img.shields.io/github/repo-size/league-of-legends-replay-extractor/pyLoL?&style=for-the-badge"></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/github/license/league-of-legends-replay-extractor/pyLoL?&style=for-the-badge"></a>
+    <a href=""><img src="https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge"></a>
 
-A program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
+</p>
+
+<p align="center">
+`LoL Replay Extractor 🌟` is a program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
+</p>
+
+<p align="center">
+    ✔ Any PRs are welcome, Watch <a href="https://github.com/league-of-legends-replay-extractor/pyLoL/tree/nightly">nightly</a> branch for recent updates!
+</p>
 
 ## ✅What is pyLoL?
 
