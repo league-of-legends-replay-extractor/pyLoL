@@ -5,12 +5,18 @@ Usage
 
 🚀Quickstart
 ------------
+* Youtube Guide
+|ImageLink1|_
+
+.. |ImageLink1| image:: http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg
+.. _ImageLink1: https://youtu.be/0z9_jyfS1TQ
+
 Get started with pyLoL in nine steps:
 
-|ImageLink|_
+|ImageLink2|_
 
-.. |ImageLink| image:: https://colab.research.google.com/assets/colab-badge.svg 
-.. _ImageLink: https://colab.research.google.com/drive/1HAQjHIVXE__Pb1KiBHG1I2jIQbFfWJ3q?usp=sharing
+.. |ImageLink2| image:: https://colab.research.google.com/assets/colab-badge.svg 
+.. _ImageLink2: https://colab.research.google.com/drive/1HAQjHIVXE__Pb1KiBHG1I2jIQbFfWJ3q?usp=sharing
 
 1. First, clone this repository.
 
