@@ -1,7 +1,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
 ![Contributors](https://img.shields.io/github/contributors/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)
 [![Stargazers](https://img.shields.io/github/stars/league-of-legends-replay-extractor/pyLoL.svg?style=for-the-badge)](https://github.com/league-of-legends-replay-extractor/pyLoL/stargazers)
-[![Documentation Status](https://readthedocs.org/projects/pylol/badge/?version=latest)](https://pylol.readthedocs.io/en/latest/?style=for-the-badge)
+[![Documentation Status](https://readthedocs.org/projects/pylol/badge/?style=for-the-badge)](https://pylol.readthedocs.io/en/latest/?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)
 ![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge)
 
