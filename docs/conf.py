@@ -18,9 +18,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "pyLoL"
+copyright = "2023, pyLoL core team"
+author = "pyLoL core team"
 
 
 # -- General configuration ---------------------------------------------------
