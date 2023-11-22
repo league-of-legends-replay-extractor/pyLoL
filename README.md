@@ -7,10 +7,6 @@
 
 # 🚩League-of-Legends-Replay-Extractor
 
-<p align="center">
-   <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
-</p>
-
 ## **League of Legends Replay Extractor Using CV**
 
 A program for gathering positional data and providing analytics from League of Legends videos. It can be used to automatically gather spatiotemporal data (player locations over time) from a series of Youtube/locally stored videos
@@ -177,6 +173,12 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
 ## 🌠Give this Project a Star
 
 This project is an open source project. If you like what you see, please give it a star on github.
+
+## ☕Buy me a coffee
+
+<p align="center">
+   <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
+</p>
 
 ## 📝Citing this Paper
 
