@@ -35,7 +35,7 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 Get started with pyLoL in nine steps:
 
-* [Examples](https://colab.research.google.com/drive/1HAQjHIVXE__Pb1KiBHG1I2jIQbFfWJ3q?usp=sharing).![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HAQjHIVXE__Pb1KiBHG1I2jIQbFfWJ3q?usp=sharing)
 
 1. First, clone this repository.
 
@@ -56,12 +56,14 @@ python setup.py develop
 ```
 
 4. Directory settings
+
+
    In replay_scraper.ipynb, modify the path to suit your local environment
-   game_dir: League of Legends game directory.
-   replay_dir: League of Legends *.rofl replay directory.
-   dataset_dir: JSON replay files output directory.
-   replay_speed: League of Legends client replay speed multiplier.
-   scraper_dir: Directory of the scraper program.
+   * game_dir: League of Legends game directory.
+   * replay_dir: League of Legends *.rofl replay directory.
+   * dataset_dir: JSON replay files output directory.
+   * replay_speed: League of Legends client replay speed multiplier.
+   * scraper_dir: Directory of the scraper program.
    
 ```python
 rd.set_replays_dir(rd,folder_dir = r'C:\Users\username\Documents\League of Legends\Replays')  # replay download directory
@@ -112,9 +114,11 @@ for matchId in tqdm(matchIds_challenger[:1000],
 ![image](https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/gathering_replay_files.png)
 
 8. Run replay => Save minimap capture video
-   Option : All) no fog of war
-            Blue) fog of war in Blue team
-            Red)  fog of war in Red team
+
+* Option
+   * All) no fog of war
+   * Blue) fog of war in Blue team
+   * Red)  fog of war in Red team
 ```python
 for replay in tqdm(replays,
                     desc = 'Extracting Replay_Minimaps from LoL Client... ', ## Print statement for progress at the front
