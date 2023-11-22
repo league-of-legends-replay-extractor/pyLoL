@@ -76,7 +76,7 @@ You can get API KEY from riot developer portal : `<https://developer.riotgames.c
 
    dg.get_tier_matchIds(dg, queue='RANKED_SOLO_5x5', tier='MASTER', division='I' , max_ids=5000, patch_start_datetime='2023.10.26')
 
-.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_kda.png
+.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/raw/main/assets/extracting_kda.png
 
 7. Save replay files for the match IDs obtained above
 
@@ -96,7 +96,7 @@ You can get API KEY from riot developer portal : `<https://developer.riotgames.c
     except:
         pass
 
-.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/gathering_replay_files.png
+.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/raw/main/assets/gathering_replay_files.png
 
 8. Run replay => Save minimap capture video
 
@@ -123,7 +123,7 @@ You can get API KEY from riot developer portal : `<https://developer.riotgames.c
                   paused=False, 
                   team="All")
 
-.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_replay_minimaps.png
+.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/raw/main/assets/extracting_replay_minimaps.png
 
 9. Extract Realtime KDA, CS using OCR
 
@@ -133,4 +133,4 @@ You can get API KEY from riot developer portal : `<https://developer.riotgames.c
    oc.__init__(oc, project_folder_dir = r'C:\Users\username\Desktop\pyLoL')
    oc.get_ocr(oc)
 
-.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/blob/main/assets/extracting_kda.png
+.. image:: https://github.com/league-of-legends-replay-extractor/pyLoL/raw/main/assets/extracting_kda.png
