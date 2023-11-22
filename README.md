@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)
 ![Roboflow](https://img.shields.io/badge/Uses-Roboflow-blue.svg?style=for-the-badge)
 
-<p align="center" style="font-size: large;">🚩League-of-Legends-Replay-Extractor</p>
+# 🚩League-of-Legends-Replay-Extractor
 
 ## **League of Legends Replay Extractor Using CV**
 
