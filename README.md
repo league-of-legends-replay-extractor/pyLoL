@@ -38,8 +38,11 @@ pyLoL is 'League of Legends' replays data extracting program.
 ## 🚀Quickstart
 
 - youtube_guide
-
-[![Video Label](http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg)](https://youtu.be/0z9_jyfS1TQ)
+<p align="center">
+  <a href="https://youtu.be/0z9_jyfS1TQ">
+    <img src="http://img.youtube.com/vi/0z9_jyfS1TQ/0.jpg" alt="Video Label">
+  </a>
+</p>
 
 Get started with pyLoL in nine steps:
 
