@@ -184,6 +184,10 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
         
         # infer on an image hosted elsewhere
         # print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
+  
+![image](https://github.com/league-of-legends-replay-extractor/pyLoL/assets/53938323/16c47f05-9dc2-41e4-b769-b8901454beef)
+
+
 
 ## 🌠Give this Project a Star
 
