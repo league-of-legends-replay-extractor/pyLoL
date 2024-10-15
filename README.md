@@ -214,6 +214,15 @@ This project is an open source project. If you like what you see, please give it
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
 
+## 🖼️Update(Champ Detection Module)
+- Champion Tracking (Not Roboflow, Just Using LoL DataDragon & Self-Augemted Dataset)
+- Get champ portraits from riot developer's datadragon(https://ddragon.leagueoflegends.com/cdn/dragontail-14.20.1.tgz)
+- Augment detection dataset from champ portraits & minimap
+- Also add 'pings' and 'turrets' for better detection from 'Occlusion Problem' (eg. Back Pings Hides Champ Portraits @ minimap)
+- No need to manually label champions on the minimap!
+- In 14.20.1 patch, there are 168 champs
+  ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
+
 |kimsy1106|tim000519|cye_dev|
 |------|---|---|
 |developing replay extractor|manage "read the docs"|manage "read the docs"|
