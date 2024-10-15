@@ -223,9 +223,9 @@ This project is an open source project. If you like what you see, please give it
 - In 14.20.1 patch, there are 168 champs
   ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
 
-|kimsy1106|tim000519|cye_dev|
+|kimsy1106|AkiaCode|cye_dev|
 |------|---|---|
-|developing replay extractor|manage "read the docs"|manage "read the docs"|
+|developing replay extractor|developing replay extractor|manage "read the docs"|
 
 
 
