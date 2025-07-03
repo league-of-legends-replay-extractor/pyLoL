@@ -201,7 +201,7 @@ This project is an open source project. If you like what you see, please give it
 
 ## 📝Citing this Paper
 
-[Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2023w/abs/0632-RRHIQ.pdf)
+[Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://drive.google.com/file/d/1yJf1KrjSqc1DK4oyAY8O-lkOmkl1F2A5/view?usp=sharing)
 
       @article{김성윤2023시계열,
         title={시계열 위치 데이터를 활용한 MOBA 게임 승패 예측: 리그오브레전드 사례 분석},
