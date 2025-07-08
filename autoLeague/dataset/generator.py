@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 '''데이터셋 생성기, 원하는 티어 입력해주면 해당 티어대의 리플레이들을 저장해준다.'''
+
 class DataGenerator(object):
 
     '''
@@ -118,7 +119,8 @@ class DataGenerator(object):
         matchIdsOver15 = list(set(matchIdsOver15))  
 
         return matchIdsOver15
-    
+
+    ############## Updated match-history lookup to use PUUID, since summoner-ID queries have been removed from the Riot API.##############
     # #get matchids { precondition : queue(=랭크 타입) , tier(=티어), division(=단계, 예:I,II,III,IV) , patch_start_datetime(=패치시작일, 예: '2023.10.08')  , min_game_duration : 최소 게임 진행시간(분)}
     # def get_tier_matchIds(self, queue, tier, division , max_ids, patch_start_datetime, min_game_duration, max_game_duration):
     
