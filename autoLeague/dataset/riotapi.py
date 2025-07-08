@@ -193,7 +193,7 @@ class RiotAPI(object):
             features.append(f'레드오브젝{i}')
 
 
-        f = open(rf'C:\Users\김성윤\Desktop\pyLoL\riot_api_dataset.csv','a', newline='')
+        f = open(rf'C:\Users\sykim1106\Desktop\pyLoL\riot_api_dataset.csv','a', newline='')
         wr = csv.writer(f)
         wr.writerow(features)
         
