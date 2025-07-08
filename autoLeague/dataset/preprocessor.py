@@ -88,14 +88,14 @@ class DataPreprocessor(object):
     def get_each_Vision_Area_Per_Tier(self, project_folder_dir, tier):
 
         # EXAMPLE ##########################################
-        # project_folder_dir : C:\Users\김성윤\Desktop\pyLoL 때로는 C:\dataset
+        # project_folder_dir : C:\Users\sykim1106\Desktop\pyLoL 때로는 C:\dataset
         # tier : CHALLENGER
         #################################################### 
         INITIAL = 0
         match_folders = os.listdir(f'{project_folder_dir}\{tier}')
         project_folder_dir = f'{project_folder_dir}\{tier}'
 
-        # 각 경기 폴더들 => 예시 : C:\Users\김성윤\Desktop\pyLoL\CHALLENGER\KR-6415928037
+        # 각 경기 폴더들 => 예시 : C:\Users\sykim1106\Desktop\pyLoL\CHALLENGER\KR-6415928037
 
         f = open(rf'./dataset/{tier}_dataset.csv','a', newline='')
         features = ['matchID']
