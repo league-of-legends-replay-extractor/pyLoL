@@ -1,4 +1,4 @@
-# <h1 align="center"><img src="./assets/logo.jpg" style="width:288px;height:240px;"/><br>LoL Replay Extractor</h1>
+# <h1 align="center"><img src="./assets/logo.png" style="width:288px;height:240px;"/><br>LoL Replay Extractor</h1>
 
 <p align="center">
 !! LoL Replay Extractor is still in development, any bugs can appear !!
