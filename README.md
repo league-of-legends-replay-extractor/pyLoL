@@ -35,6 +35,17 @@ pyLoL is 'League of Legends' replays data extracting program.
 
 [3] can get the location of wards.
 
+## 🌠Give this Project a Star
+
+This project is an open source project. If you like what you see, please give it a star on github.
+
+## ☕Buy me a coffee
+
+<p align="center">
+   <a href="https://coff.ee/vjvi8xhtwy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
+</p>
+
+
 ## 🚀Quickstart
 
 - youtube_guide
@@ -160,6 +171,23 @@ oc.get_ocr(oc)
 
 ## 🎯Champion Tracking Model( Using Minimap Frame dataset )
 
+#### 🖼️Update(Champ Detection Module)
+- Champion Tracking (Not Roboflow, Just Using LoL DataDragon & Self-Augemted Dataset)
+- Get champ portraits from riot developer's datadragon(https://ddragon.leagueoflegends.com/cdn/dragontail-15.13.1.tgz)
+- Augment detection dataset from champ portraits & minimap
+- Also add 'pings' and 'turrets' for better detection from 'Occlusion Problem' (eg. Back Pings Hides Champ Portraits @ minimap)
+- No need to manually label champions on the minimap!
+- In 15.13.1 patch, there are 170 champs, this module supports 166 champs
+  ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
+- you can download this module >> 
+## 📥 Pre‑trained Weights (YOLO‑v12)
+
+| File          | Size | Download |
+|---------------|------|----------|
+| `yolov12.pt`  | 227 MB |[Google Drive](https://drive.google.com/uc?export=download&id=1ymd7Thcz1XdejEW94LjSFDl3zDqYH0qq) |
+
+
+
 - Champion Tracking (Roboflow)
 - <img src="https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/0c678dbf-82e7-4219-9f77-3faf3a58b358" width="450" height="450">
 
@@ -189,16 +217,6 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
 
 
 
-## 🌠Give this Project a Star
-
-This project is an open source project. If you like what you see, please give it a star on github.
-
-## ☕Buy me a coffee
-
-<p align="center">
-   <a href="https://www.buymeacoffee.com/201902664" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>   
-</p>
-
 ## 📝Citing this Paper
 
 [Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://drive.google.com/file/d/1yJf1KrjSqc1DK4oyAY8O-lkOmkl1F2A5/view?usp=sharing)
@@ -214,14 +232,7 @@ This project is an open source project. If you like what you see, please give it
 ![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
 
 
-## 🖼️Update(Champ Detection Module)
-- Champion Tracking (Not Roboflow, Just Using LoL DataDragon & Self-Augemted Dataset)
-- Get champ portraits from riot developer's datadragon(https://ddragon.leagueoflegends.com/cdn/dragontail-14.20.1.tgz)
-- Augment detection dataset from champ portraits & minimap
-- Also add 'pings' and 'turrets' for better detection from 'Occlusion Problem' (eg. Back Pings Hides Champ Portraits @ minimap)
-- No need to manually label champions on the minimap!
-- In 14.20.1 patch, there are 168 champs
-  ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
+
 
 |kimsy1106|AkiaCode|cye_dev|
 |------|---|---|
