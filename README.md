@@ -180,9 +180,9 @@ oc.get_ocr(oc)
 - In 15.13.1 patch, there are 170 champs, this module supports 166 champs
   ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
 - you can download this module >> 
-## 📥 Pre‑trained Weights (YOLO‑v12)
+## 📥 Pre‑trained Weights (YOLO‑v12, input size : 512 x 512 color image, input type : .png)
 
-| File          | Size | Download |
+| File          | Size | Download | 
 |---------------|------|----------|
 | `yolov12.pt`  | 227 MB |[Google Drive](https://drive.google.com/uc?export=download&id=1ymd7Thcz1XdejEW94LjSFDl3zDqYH0qq) |
 
