@@ -186,6 +186,7 @@ oc.get_ocr(oc)
 |---------------|------|----------|
 | `yolov12.pt`  | 227 MB |[Google Drive](https://drive.google.com/uc?export=download&id=1ymd7Thcz1XdejEW94LjSFDl3zDqYH0qq) |
 
+<img width="477" height="406" alt="image" src="https://github.com/user-attachments/assets/9be25916-de38-42c6-8d64-37bc759cfd2d" />
 
 
 - Champion Tracking (Roboflow)
