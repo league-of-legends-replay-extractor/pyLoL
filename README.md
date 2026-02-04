@@ -218,26 +218,12 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
 
 
 
-## 📝Citing this Paper
-
-[Win Prediction in MOBA Games Using Time-Series Location Data : Case Study in League of Legends (LoL)](https://drive.google.com/file/d/1yJf1KrjSqc1DK4oyAY8O-lkOmkl1F2A5/view?usp=sharing)
-
-      @article{김성윤2023시계열,
-        title={시계열 위치 데이터를 활용한 MOBA 게임 승패 예측: 리그오브레전드 사례 분석},
-        author={김성윤 and 이태홍 and 양희철},
-        journal={한국통신학회 학술대회논문집},
-        pages={1205--1206},
-        year={2023}
-      }
-
-![image](https://github.com/kimsy1106/league-of-legends-replay-extractor/assets/53938323/c33b106a-63eb-4b2e-9fca-dd89e445c2c3)
-
-
 
 
 |kimsy1106|AkiaCode|cye_dev|
 |------|---|---|
 |developing replay extractor|developing replay extractor|manage "read the docs"|
+
 
 
 
