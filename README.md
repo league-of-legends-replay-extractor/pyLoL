@@ -177,7 +177,7 @@ oc.get_ocr(oc)
 - Augment detection dataset from champ portraits & minimap
 - Also add 'pings' and 'turrets' for better detection from 'Occlusion Problem' (eg. Back Pings Hides Champ Portraits @ minimap)
 - No need to manually label champions on the minimap!
-- In 15.13.1 patch, there are 170 champs, this module supports 166 champs
+- In 15.13.1 patch, there are 170 champs, this module supports 167 champs
   ![image](https://github.com/user-attachments/assets/e05eb9ff-8840-476b-ab46-2c3d71e882e2)
 - you can download this module >> 
 ## 📥 Pre‑trained Weights (YOLO‑v12, input size : 512 x 512 color image, input type : .png)
@@ -223,6 +223,7 @@ Then, You can use this tracking model ( Performance | mAP : 92.2% | precision : 
 |kimsy1106|AkiaCode|cye_dev|
 |------|---|---|
 |developing replay extractor|developing replay extractor|manage "read the docs"|
+
 
 
 
