@@ -238,7 +238,7 @@ class RiotAPI(object):
     #         return champNames
     
     #     if not os.path.exists(csv_save_folder_dir):
-    #         os.makedirs(csv_save_folder_dir)
+    #         os.makedirs(csv_save_folder_dir, exist_ok=True)
 
     #     csv_file = os.path.join(csv_save_folder_dir, csv_name)
 
@@ -353,7 +353,7 @@ class RiotAPI(object):
     #     output_csv_dir = os.path.dirname(output_csv_path)
 
     #     if not os.path.exists(output_csv_dir):
-    #         os.makedirs(output_csv_dir)
+    #         os.makedirs(output_csv_dir, exist_ok=True)
 
     #     csv_file = output_csv_path
     #     matchids = pd.read_csv(input_csv_path)['matchid'].tolist()
@@ -456,7 +456,7 @@ class RiotAPI(object):
         filtered_df = df.loc[~has_excluded, ["match_id"]]
 
         # ④ 저장
-        os.makedirs(os.path.dirname(csv_out), exist_ok=True)
+        os.makedirs(os.path.dirname(csv_out, exist_ok=True), exist_ok=True)
         filtered_df.to_csv(csv_out, index=False)
 
         print(f"전체 {len(df)} 개 matchid 중에서 {len(filtered_df)}개의 match_id 가 {csv_out}에 저장되었습니다.")
@@ -502,7 +502,7 @@ class RiotAPI(object):
         filtered_dict = {m_id: orig_inner_data[m_id] for m_id in top_match_ids}
         result_obj = {"data": filtered_dict}
 
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        os.makedirs(os.path.dirname(output_path, exist_ok=True), exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(result_obj, f, ensure_ascii=False, indent=2)
 
@@ -1566,7 +1566,7 @@ class RiotAPI(object):
 
         # ── ② 결과 CSV 헤더 준비 (없으면 생성) ─────────────────────
         file_exists = os.path.exists(output_csv_path)
-        os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
+        os.makedirs(os.path.dirname(output_csv_path, exist_ok=True), exist_ok=True)
         if not file_exists:
             with open(output_csv_path, "w", newline="", encoding="utf-8") as f:
                 csv.writer(f).writerow(["match_id", "avg_score"])
